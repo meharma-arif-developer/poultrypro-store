@@ -1,0 +1,23 @@
+// First-run sample products. After that, manage products from the admin panel.
+export const SEED_PRODUCTS = [
+  { name: 'Premium Layer Feed (50 kg bag)', category: 'Feed & Supplements', price: 9200, oldPrice: 10000, rating: 4.7, reviews: 86, image: '/images/layer-feed.jpg',
+    description: 'Balanced protein and calcium formula to support steady egg production and strong shells.' },
+  { name: 'Broiler Starter Feed (25 kg bag)', category: 'Feed & Supplements', price: 5400, oldPrice: 5900, rating: 4.6, reviews: 64, image: '/images/broiler-feed.jpg',
+    description: 'High-protein crumble for fast, healthy growth in the first weeks of broiler chicks.' },
+  { name: 'Calcium & Vitamin Supplement (5 kg)', category: 'Feed & Supplements', price: 1850, oldPrice: 2200, rating: 4.5, reviews: 41, image: '/images/supplement.jpg',
+    description: 'Mix into daily feed to strengthen bones and eggshells and support overall flock health.' },
+  { name: 'Automatic Nipple Drinker (set of 10)', category: 'Feeders & Drinkers', price: 1400, oldPrice: 1800, rating: 4.4, reviews: 58, image: '/images/nipple-drinker.jpg',
+    description: 'Drip-free drinkers that keep water clean and the litter dry. Easy to fit on standard pipes.' },
+  { name: 'Hanging Poultry Feeder (10 kg)', category: 'Feeders & Drinkers', price: 1200, oldPrice: 1500, rating: 4.5, reviews: 72, image: '/images/hanging-feeder.jpg',
+    description: 'Durable plastic feeder with an adjustable hanger, designed to reduce feed waste.' },
+  { name: 'Automatic Egg Incubator (56 eggs)', category: 'Incubators', price: 18500, oldPrice: 22000, rating: 4.6, reviews: 37, image: '/images/incubator-56.jpg',
+    description: 'Automatic egg turning with digital temperature control. Ideal for small farms and beginners.' },
+  { name: 'Digital Egg Incubator (120 eggs)', category: 'Incubators', price: 34000, oldPrice: 39000, rating: 4.7, reviews: 29, image: '/images/incubator-120.jpg',
+    description: 'Larger capacity with humidity control, automatic turning and a clear viewing window.' },
+  { name: 'Infrared Brooder Bulb 250W', category: 'Heating & Brooding', price: 1100, oldPrice: 1400, rating: 4.3, reviews: 95, image: '/images/brooder-bulb.jpg',
+    description: 'Keeps chicks warm during their first weeks. Shock-resistant red glass for farm use.' },
+  { name: 'Chick Brooder Heating Plate', category: 'Heating & Brooding', price: 4500, oldPrice: 5500, rating: 4.5, reviews: 33, image: '/images/heating-plate.jpg',
+    description: 'Energy-saving radiant heater that lets chicks warm up naturally, like under a mother hen.' },
+  { name: 'Desi Hen Fertile Eggs (tray of 30)', category: 'Eggs & Chicks', price: 1500, oldPrice: 1800, rating: 4.4, reviews: 48, image: '/images/desi-eggs.jpg',
+    description: 'Fertile eggs from healthy desi hens, collected fresh and packed carefully for hatching.' },
+]
